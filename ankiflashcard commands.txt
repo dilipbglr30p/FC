@@ -1,0 +1,6 @@
+
+pip install pandas openpyxl requests
+G:
+cd AnkiFlashcards
+
+python create_flashcards.py
