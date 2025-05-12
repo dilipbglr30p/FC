@@ -4,3 +4,23 @@ G:
 cd AnkiFlashcards
 
 python create_flashcards.py
+
+
+✅ Verify That AnkiConnect Is Working
+Open a browser and go to:
+
+arduino
+Copy
+Edit
+http://localhost:8765
+You should see something like:
+
+json
+Copy
+Edit
+{"error": "invalid or missing action", "result": null}
+This means AnkiConnect is installed and responding.
+
+Now you're ready to send API requests to AnkiConnect using scripts or other tools.
+
+Would you like help testing a basic script or setting up requests from a particular programming language?
